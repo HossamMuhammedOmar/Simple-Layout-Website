@@ -1,0 +1,154 @@
+body {
+  margin: auto 0;
+  padding: 0;
+}
+
+.zone {
+  color: #fff;
+  font-size: 20px;
+}
+
+/* NAV */
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+.main-nav li {
+  padding: 20px;
+  transition: all 0.4s;
+}
+
+.main-nav li:hover {
+  background-color: #626c84;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-nav {
+    font-size: 10px;
+    padding: 0;
+  }
+}
+
+.main-nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* COVER STYLE */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.push {
+  margin-left: auto;
+}
+
+.cover {
+  width: 25rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .cover {
+    width: 20rem;
+  }
+}
+
+/* SPACE */
+.space {
+  display: flex;
+  height: 150px;
+  background-color: #626c84;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.space h1 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Grenze Gotisch", cursive;
+}
+
+/* GRID */
+.grid-wrapper {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.box1 img {
+  width: 100%;
+}
+
+.box2 img {
+  width: 100%;
+}
+
+.box1 {
+  background-color: #bfe9ff;
+  border-radius: 10%;
+  padding: 100px;
+  margin: 20px;
+  border: 1px #85c4e5 solid;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 3px 5px 6px #ccc; /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 3px 5px 6px #ccc; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  transition: all 0.4s;
+}
+
+.box1:hover {
+  transform: rotate(6deg);
+}
+
+.box2 {
+  background-color: #bfe9ff;
+  border-radius: 10%;
+  padding: 100px;
+  margin: 20px;
+  border: 1px #85c4e5 solid;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 3px 5px 6px #ccc; /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 3px 5px 6px #ccc; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  transition: all 0.4s;
+}
+
+.box2:hover {
+  transform: rotate(-6deg);
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer-txt {
+  font-size: 15px;
+  text-align: center;
+  /* font-family: "Grenze Gotisch", cursive; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.green {
+  background-color: #fd848e;
+}
+
+.red {
+  background-color: #fff;
+}
+
+.blue {
+  background-color: #fff;
+}
+
+.yellow {
+  background-color: #fd848e;
+}
